@@ -3,11 +3,17 @@
 
 	1. Downloaded genomes from NCBI for each Month with collection dates:
 Jan 2020, n=7
+
 Feb 2020, n=9
+
 Mar 2020, n=1127
+
 April 2020, n=972
+
 May 2020, n=673
+
 June 2020, n=320
+
 July 2020, n=533
 Aug 2020, n=423
 Sep 2020, n=322
