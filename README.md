@@ -48,4 +48,14 @@ Found data available from JHU at https://github.com/CSSEGISandData/COVID-19. Wro
 
 	6. Determined mutations
 
-Utilized tool “CodonCode Aligner” to determine mutations in each month consensus sequence. Processed data in Excel.
+Utilized tool “CodonCode Aligner” to determine mutations in each month consensus sequence.
+
+	7. Analyzed data in excel.
+	CASES		DEATHS		CASES		DEATHS		CASES		DEATHS		CASES		DEATHS	
+	1059C	1059T	1059C	1059T	20268A	20268G	20268A	20268G	25568G	25568T	25568G	25568T	27890G	27890T	27890G	27890T
+F Value	0.122348972		0.25778914		2.065401062		1.400144633		10.04991407		8.23601517		1.172984819		6.550990997	
+F Crit	5.117355029		5.117355029		5.117355029		5.117355029		5.117355029		5.117355029		5.117355029		5.117355029	
+P Value	0.734546354		0.623851679		0.184516203		0.267011833		0.011363057		0.018481341		0.306950153		0.030712795	
+![image](https://user-images.githubusercontent.com/60581129/113227967-d9e3cc80-9261-11eb-9e03-93def2395558.png)
+
+
