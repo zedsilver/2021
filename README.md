@@ -1,9 +1,7 @@
-# 2021
-
 
 Examining the genetic makeup of predominant SARS-CoV-2 strains in California and Correlation with Infection and Death Rates
 
-Downloaded genomes from NCBI for each Month with collection dates:
+	1. Downloaded genomes from NCBI for each Month with collection dates:
 Jan 2020, n=7
 Feb 2020, n=9
 Mar 2020, n=1127
@@ -18,7 +16,8 @@ Nov 2020, n=1079
 Dec 2020, n=2441
 Jan 2021, n=3600
 Feb 2021, n=2657
-Installed wtdbg2 to create consensus sequences for each month.
+
+	2. Installed wtdbg2 to create consensus sequences for each month.
 Mkdir CAL20C
 Cd CAL20C
 git clone https://github.com/ruanjue/wtdbg2
@@ -29,7 +28,7 @@ Cd firstassembly
 
 Used FileZilla to copy fastas to originals folder
 
-Ran wtdbg2 and condenser
+	3. Ran wtdbg2 and condenser
 for FILENAME in ../originals/*.fasta; do newFILENAME=${FILENAME:0:-6}; ./../wtdbg2/wtdbg2 -i $FILENAME -fo ~/CAL20C/firstassembly/$newFILENAME; done
 
 for FILENAME in ../originals/*.ctg.lay.gz; do fileSUFFIX=.ctg.fa; newFILENAME=${FILENAME:0:-11}; ./../wtdbg2/wtpoa-cns -i "$FILENAME" -fo ../firstassembly/$newFILENAME$fileSUFFIX; done
