@@ -44,7 +44,7 @@ mafft --reorder --localpair assembled_samples.fasta > aligned_samples.aln
 
 _____________________________
 
-Spent some time finding a good resource for daily/monthly data from each state. Found data available from JHU, wrote script to extract data from .csv to .xls
+Spent some time finding a good resource for daily/monthly data from each state. Found data available from JHU, wrote script to extract data from .csv to .xls. Run file "extractData.py" within the COVID-19/csse_covid_19_data/ folder.
 _____________________________
 
 Utilized tool “CodonCode Aligner” to determine mutations in each month consensus sequence. Processed data in Excel.
