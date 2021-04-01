@@ -52,6 +52,7 @@ Utilized tool “CodonCode Aligner” to determine mutations in each month conse
 
 	7. Analyzed data in excel.
 	
-![image](https://user-images.githubusercontent.com/60581129/113227967-d9e3cc80-9261-11eb-9e03-93def2395558.png)
+![image](https://user-images.githubusercontent.com/60581129/113228327-9c337380-9262-11eb-8925-e427c173b619.png)
+
 
 
