@@ -2,25 +2,19 @@
 **Examining the genetic makeup of predominant SARS-CoV-2 strains in California and Correlation with Infection and Death Rates**
 
 	1. Downloaded genomes from NCBI for each Month with collection dates:
-Jan 2020, n=7
-
-Feb 2020, n=9
-
-Mar 2020, n=1127
-
-April 2020, n=972
-
-May 2020, n=673
-
-June 2020, n=320
-
-July 2020, n=533
-Aug 2020, n=423
-Sep 2020, n=322
-Oct 2020, n=332
-Nov 2020, n=1079
-Dec 2020, n=2441
-Jan 2021, n=3600
+Jan 2020, n=7;
+Feb 2020, n=9;
+Mar 2020, n=1127;
+April 2020, n=972;
+May 2020, n=673;
+June 2020, n=320;
+July 2020, n=533;
+Aug 2020, n=423;
+Sep 2020, n=322;
+Oct 2020, n=332;
+Nov 2020, n=1079;
+Dec 2020, n=2441;
+Jan 2021, n=3600;
 Feb 2021, n=2657
 
 	2. Installed wtdbg2 to create consensus sequences for each month.
