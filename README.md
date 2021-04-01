@@ -1,5 +1,5 @@
 
-Examining the genetic makeup of predominant SARS-CoV-2 strains in California and Correlation with Infection and Death Rates
+**Examining the genetic makeup of predominant SARS-CoV-2 strains in California and Correlation with Infection and Death Rates**
 
 	1. Downloaded genomes from NCBI for each Month with collection dates:
 Jan 2020, n=7
@@ -42,11 +42,10 @@ for FILENAME in *.ctg.fa; do printf '%s\n' "$(cat < "$FILENAME")"; done > assemb
 	4. Assembled sequences
 mafft --reorder --localpair assembled_samples.fasta > aligned_samples.aln
 
-_____________________________
+	5. Found case and death rates
 
-Spent some time finding a good resource for daily/monthly data from each state. Found data available from JHU, wrote script to extract data from .csv to .xls. Run file "extractData.py" within the COVID-19/csse_covid_19_data/ folder.
-_____________________________
+Found data available from JHU at https://github.com/CSSEGISandData/COVID-19. Wrote script to extract data from .csv to .xls. Run file "extractData.py" within the COVID-19/csse_covid_19_data/ folder.
+
+	6. Determined mutations
 
 Utilized tool “CodonCode Aligner” to determine mutations in each month consensus sequence. Processed data in Excel.
-_____________________________
-
