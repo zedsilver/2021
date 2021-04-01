@@ -51,8 +51,9 @@ Found data available from JHU at https://github.com/CSSEGISandData/COVID-19. Wro
 Utilized tool “CodonCode Aligner” to determine mutations in each month consensus sequence.
 
 	7. Analyzed data in excel.
-	
-![image](https://user-images.githubusercontent.com/60581129/113228327-9c337380-9262-11eb-8925-e427c173b619.png)
+
+![image](https://user-images.githubusercontent.com/60581129/113228405-cd13a880-9262-11eb-9617-122157a7b9d0.png)
+
 
 
 
