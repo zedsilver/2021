@@ -113,14 +113,21 @@ Utilized tool “CodonCode Aligner” to determine mutations in each month conse
 
 
 Mkdir CAL20_weekly
+
 Cd CAL20_weekly
+
 git clone https://github.com/ruanjue/wtdbg2
+
 cd wtdbg2 && make
+
 mkdir originals
+
 Mkdir firstassembly
+
 Cd firstassembly
 
 	8. Ran wtdbg2 and consenser. Added argument specifying genome size (-g 29k) to correct error where some weeks would have a blank output.
+
 for FILENAME in ../originals/*.fasta; do newFILENAME=${FILENAME:0:-6}; ./../wtdbg2/wtdbg2 -g 29k -i $FILENAME -fo $newFILENAME; done
 
 for FILENAME in ../originals/*.ctg.lay.gz; do fileSUFFIX=.ctg.fa; newFILENAME=${FILENAME:0:-11}; ./../wtdbg2/wtpoa-cns -i "$FILENAME" -fo $newFILENAME$fileSUFFIX; done
