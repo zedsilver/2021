@@ -141,3 +141,6 @@ for FILENAME in *.ctg.fa; do printf '%s\n' "$(cat < “$FILENAME")"; done > asse
 mafft --reorder --localpair assembled_samples.fasta > aligned_samples.aln
 
 	9. Imported data to CodonCode Aligner to find differences, and analyzed in Excel.
+
+![image](https://user-images.githubusercontent.com/60581129/115786055-4dbf5380-a38e-11eb-9c9d-86fcce3904d2.png)
+
