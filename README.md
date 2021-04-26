@@ -17,6 +17,7 @@ Dec 2020, n=2441;
 Jan 2021, n=3600;
 Feb 2021, n=2657
 
+
 	2. Installed wtdbg2 to create consensus sequences for each month.
 Mkdir CAL20C
 Cd CAL20C
@@ -140,7 +141,9 @@ for FILENAME in *.ctg.fa; do printf '%s\n' "$(cat < “$FILENAME")"; done > asse
 
 mafft --reorder --localpair assembled_samples.fasta > aligned_samples.aln
 
-	9. Imported data to CodonCode Aligner to find differences, and analyzed in Excel.
+	9. Modified Python script to extract weekly death and case rates.
+
+	10. Imported data to CodonCode Aligner to find differences, and analyzed in Excel.
 
 ![image](https://user-images.githubusercontent.com/60581129/115786055-4dbf5380-a38e-11eb-9c9d-86fcce3904d2.png)
 
